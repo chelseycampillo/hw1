@@ -20,7 +20,7 @@ function upRepeat(nSteps) {
   var steps = 0;
   	while (steps < nSteps) {
       up();
-      setColor("red")'
+      setColor("red");
     steps = steps + 1
     }
 }
