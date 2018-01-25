@@ -7,18 +7,25 @@ function rightRepeat(nSteps) {
 }
 
 rightRepeat(2);
+
 var mycolor = getColor();
-if (getColor == "blue") {
+if (getColor() == "blue") {
 	down();
 } else {
 	up();
 }
 
 rightRepeat(2);
-down();
+
+if (getColor() == "red") {
+	up();
+} else {
+	down();
+}
+
 rightRepeat(2);
 
-if (getColor == "red") {
+if (getColor() == "red") {
 	up();
 } else {
 	down();
